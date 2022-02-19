@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>less0n-8</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="block">
+            <h1 class="tema">
+                8 урок Псевдо-классы и Псевдо-эелементы. <br>
+                Псевдо-класс Состояния
+            </h1>
+                
+            <p class="hover">
+                :hover - данный псевдо класс срабатывает в тот момент когда на него наводят мышью. привидёмпример на ссылке.
+                запомни: даже если заказчик не указывал делай вёрстку качественней добавляй интерактивные элементы в вертску например используй :hover чтобы подчёркивались ссылки, выделялись блоки текста, отдавали тень кнопки т.д.
+             </p>
+             <p class="hover2">
+                 <a class="hover3" href="">Ссылка</a> 
+             </p>
+             <p class="active">
+                :active - псевдо класс состояния он срабатывает при нажатии на элемент. приведём пример.
+             </p>
+            <p class="active2">
+                Lorem <a class="active3" href="">ipsum,</a> dolor sit amet consectetur adipisicing elit.
+            </p>
+            
+            <p class="knopka">
+                сейчас имея знания об этих двух псевдо-элементах мы можем сделать кнопку-ссылку. пример:
+            </p>
+            <a  href="" class="knopka2">Ссылка</a>
+                
+            
+            
+            <p class="visited">
+                :visited - Это псевдо-класс. он срабатывает для посешённых ссылок, сайтов. т.е. с его помошью можно окрашивать ссылки которые ты посетил, кликнул.
+            </p>
+            <a class="visited2" href="https://lord.com">Ссылка</a>
+            <p class="focus">
+                :focus - он срабатывает в момент получения объектом фокуса. в фокус объект можно взять кликом мыши или же нажимая клавишу TAB.
+                Исползуя :focus мы можем менять цвет стиль фокуса Например:
+            </p>
+            <a href="" class="focus2">focus</a>
+            <a href="" class="focus2">focus</a>
+            <p class="target">
+                :target - срабатывает когда элемент является объектом на коотрый ссылаются. То есть создана ссылка которая ссылается на объект то можно с помошью её не толко быстро скролится к объекту но и менять стили этого объекта например цвет, размер, бекграунд и т.д. Пример: <a href="#targ" class="target2">Ссылка</a>
+            </p>
+            <p id="targ" class="target3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates culpa ipsum ab sint id, facere inventore, voluptatum ullam enim veritatis praesentium earum iusto ut deleniti in, error magni dicta aut!
+            </p>
+            <p class="fc">
+                Псевдо-классы положения в коде <br>:first-child обрашение к первому элементу (тегу) в блоке. <br>
+                Если перед первым p-тегом объявлен например (s)-тег то код не сработает. Поэтому если если нужно повлиять на первый тег без разницы какой то нужно писать так - *:first-child <br> 
+                А чтобы обратиться к последнему объекту в блоке пишешь :last-child - тут также можно ко всем объектам *:last-child 
+            </p>
+            <div class="fc2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut at commodi dolore optio ipsam incidunt eius blanditiis neque. Suscipit repellendus aperiam earum ipsam cumque obcaecati consectetur error unde magnam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut at commodi dolore optio ipsam incidunt eius blanditiis neque. Suscipit repellendus aperiam earum ipsam cumque obcaecati consectetur error unde magnam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut at commodi dolore optio ipsam incidunt eius blanditiis neque. Suscipit repellendus aperiam earum ipsam cumque obcaecati consectetur error unde magnam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut at commodi dolore optio ipsam incidunt eius blanditiis neque. Suscipit repellendus aperiam earum ipsam cumque obcaecati consectetur error unde magnam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut at commodi dolore optio ipsam incidunt eius blanditiis neque. Suscipit repellendus aperiam earum ipsam cumque obcaecati consectetur error unde magnam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut at commodi dolore optio ipsam incidunt eius blanditiis neque. Suscipit repellendus aperiam earum ipsam cumque obcaecati consectetur error unde magnam!</p>
+            </div>
+            <p class="fot">
+                :fitrst-of-type - Обращение к первому тегу выбранного типа. <br>
+                :last-of-type - обрашение к последнему объекту. <br> 
+                Пример:
+            </p>
+            <div class="fot2">
+                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores explicabo error ipsum tempore ab aliquam deserunt alias libero laudantium quia! Blanditiis atque architecto cupiditate optio sunt! Natus quam quidem minima!</span>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum at perferendis quidem, alias corrupti omnis soluta! Facilis incidunt perferendis tenetur iusto assumenda voluptate esse aliquid, accusantium impedit cupiditate, adipisci sunt.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum at perferendis quidem, alias corrupti omnis soluta! Facilis incidunt perferendis tenetur iusto assumenda voluptate esse aliquid, accusantium impedit cupiditate, adipisci sunt.
+                </p> 
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum at perferendis quidem, alias corrupti omnis soluta! Facilis incidunt perferendis tenetur iusto assumenda voluptate esse aliquid, accusantium impedit cupiditate, adipisci sunt.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum at perferendis quidem, alias corrupti omnis soluta! Facilis incidunt perferendis tenetur iusto assumenda voluptate esse aliquid, accusantium impedit cupiditate, adipisci sunt.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum at perferendis quidem, alias corrupti omnis soluta! Facilis incidunt perferendis tenetur iusto assumenda voluptate esse aliquid, accusantium impedit cupiditate, adipisci sunt.
+                </p>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam laboriosam, omnis neque itaque fuga aut eos enim modi? Voluptates est temporibus, dolorum consequuntur eveniet impedit quia obcaecati ullam deleniti incidunt.
+                </span>
+                
+            </div>
+            <p class="nth">
+                :nth-child(...) - Обрашаемся к указанному элементу. 
+            </p>
+            <div class="nth2">
+               
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt harum pariatur, illum cumque vero sapiente optio architecto, modi enim cum ratione obcaecati quo officiis dolore tenetur velit, hic dolores! Voluptatibus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dicta magnam, ab quo dolores, repudiandae soluta, minus ad consequuntur porro fugiat eveniet voluptate. Fugit consequuntur nemo quos ex doloremque reprehenderit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, id ad. Laudantium officiis, aspernatur, eveniet rerum ab, ducimus est nostrum numquam aliquam architecto eos sunt ex deserunt id. Alias, placeat?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis nobis incidunt totam quidem obcaecati nesciunt voluptatum vel hic. Deserunt dolore eius quia tenetur culpa in debitis distinctio esse dolorem labore?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ullam voluptas perspiciatis animi praesentium deserunt enim expedita alias fuga tempora natus earum aperiam, at minima voluptatem corporis vitae rerum soluta.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta enim provident voluptates dolore debitis a fuga dolorem asperiores quod magni sunt nesciunt cum adipisci eveniet eos, ipsam quibusdam maiores tenetur.</p>
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt facilis tempora perferendis, repellat aperiam quam esse obcaecati ab ea harum officia tempore ipsam nisi, nostrum fugit dicta accusamus assumenda.</span>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis eos corporis et hic odit, qui culpa quisquam ut, non blanditiis sed quia provident pariatur tempore molestiae? Natus laborum ipsa assumenda.</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil tenetur vel ipsam placeat voluptate, reiciendis corrupti doloremque dignissimos, accusantium iste quia, ratione corporis dolorem facere totam aliquid iure eius laborum.</p>
+            </div>
+            <p  class="not1">
+                :not(...) - Псевдо класс Исключения. <br>
+                В исключение можно ставить класс, псевдо-класс, 
+            </p>
+            <div class="not2">
+                
+                
+                
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quis? Voluptas praesentium accusamus deserunt excepturi ad, aspernatur, modi ipsum cum nostrum facilis quod odit esse reiciendis similique fuga, nihil libero.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati accusantium quasi corrupti quam! Dolor ab eos recusandae voluptatum quam, iusto eaque, inventore ea pariatur asperiores dolorem? Adipisci, officiis fugit!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus eligendi numquam quod nobis officia sequi vel nihil iusto eveniet commodi. Aspernatur, veniam totam quasi iusto nihil voluptatibus tenetur dolorem amet.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque culpa sed assumenda soluta explicabo iure voluptate excepturi rem error! Accusamus facere voluptates pariatur optio sequi officiis laboriosam beatae quam deserunt?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni mollitia, odio inventore sed porro aliquam soluta tempore accusantium ex illum. Eveniet, nulla aliquam reiciendis autem id hic voluptatem consectetur eaque?
+                </p>
+                <span>
+                    Я СПАН Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod dolorum quo veritatis! Magni quasi velit reprehenderit itaque veniam fuga ipsum dolores doloremque, debitis, nemo recusandae adipisci atque ipsam id nisi.
+                </span>
+                <span>
+                    Я СПАН Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repudiandae aliquam amet delectus possimus non at quia facere, labore tempora, laborum reprehenderit quidem architecto voluptate odit numquam similique sint adipisci.
+                </span>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque rerum quibusdam illum porro nulla voluptates. Animi tenetur, ipsa dicta eius ea id ad eum tempora ducimus temporibus odit inventore. Tempora?
+                </p>
+            </div>
+           <div class="eltema">
+               <p>
+                   Псевдо-эелементы. <br>
+                   ::first-line - Меняет стиль первой строки текста. <br>
+                   ::first-letter - Меняет стиль первой буквы текста.
+               </p>
+           </div>
+           
+            <div class="el">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem fugit assumenda aspernatur minima quasi aperiam labore soluta earum perspiciatis sint alias aliquam, delectus illum facere explicabo adipisci quas harum perferendis.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel temporibus molestias repellendus voluptas autem? Alias, cum sequi ullam fugiat explicabo voluptates, animi veniam quos dolores molestiae labore odio ipsum! Accusantium.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempore magnam doloribus placeat cum quo consequuntur minima at perspiciatis quod libero, voluptatum sapiente aut quos cumque reiciendis in veritatis ex.
+                </p>
+                </div>
+                <div class="bef">
+                    <p>::before и ::after <br>
+                    Это П-Э добавляюшие контент до и после содержимого объекта. Они строчные И не работают без параметра CONTENT:"...";
+                    </p>
+
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate deserunt ex ut deleniti omnis, impedit ab rerum aliquid quo reprehenderit, accusamus, in assumenda. Ratione doloribus fugit sequi harum quis?
+                    </p>
+                </div>
+                <div class="bef2">
+                    <ul>
+                        <li>Я Пункт</li>
+                        <li>Я Пункт</li>
+                        <li>Я ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ Пункт</li>
+                        <li>Я Пункт</li>
+                        <li>Я ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ ПунктЯ Пункт</li>
+                        <li>Я Пункт</li>
+                    </ul>
+                </div>
+                <div class="zag">
+                    <h1 class="zag1">
+                        Я заголовок
+                    </h1>
+                </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

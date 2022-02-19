@@ -1,0 +1,417 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+.block {
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(86,63,147,1) 10%, rgba(235,235,235,1) 16%, rgba(84,65,157,1) 34%, rgba(15,14,17,1) 45%, rgba(64,95,152,1) 50%, rgba(87,63,145,1) 55%, rgba(106,236,57,1) 58%, rgba(209,196,90,1) 64%, rgba(87,62,143,1) 82%, rgba(90,59,131,1) 100%, rgba(91,57,125,1) 100%, rgba(91,56,123,1) 100%, rgba(55,35,129,1) 100%);
+}
+.tema {
+    background-color: aqua; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+         
+}
+.hover {
+    background-color: blueviolet;
+    font-size: 30px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+    text-align: center;
+    text-decoration:underline green;
+    opacity: 0.5;
+}
+.hover2 {
+    background-color: green;
+    font-size: 30px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+    text-align: center;
+    
+}
+.hover3:hover {
+    color:aliceblue;
+    text-decoration:underline red;
+}
+
+
+
+
+.active {
+    background-color:burlywood; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+    font-style: italic;
+}
+.active2 {
+    background-color: aqua; 
+    font-size: 35px;
+    max-width: 300px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+    text-align: right;
+}
+.active3:active {
+    background-color: burlywood;
+    font-style: italic;
+    text-decoration: underline firebrick;
+}
+
+
+
+
+
+.knopka {
+    background-color: gold; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 0px auto;
+}
+
+.knopka2 {
+    display: block;
+    background-color: green;
+    font-size: 40px;
+    max-width: 200px;
+    margin: 50px auto 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    box-shadow: 0px 10px 0px 0px   #000;
+
+}
+.knopka2:hover {
+    background-color: rgb(35, 158, 35);
+    text-decoration: underline blue;
+}
+.knopka2:active {
+    margin: 56px auto 50px auto;
+    box-shadow: 0px 2px 0px 0px #000;
+    text-decoration: underline red;
+}
+
+
+
+
+.visited{
+    background-color: aqua; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+    color: yellowgreen;
+}
+.visited2 {
+    background-color: aqua; 
+    display: block;
+    font-size: 35px;
+    max-width: 400px;
+    min-height: 50px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+}
+.visited2:visited {
+    color: blue;
+}
+
+
+
+
+.focus {
+    background-color: darkgray; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+}
+.focus2 { 
+    display: inline-block;
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+}
+.focus2:focus {
+    outline: dashed 10px red ;
+    color: green;
+}
+
+
+
+
+.target {
+    background-color: aqua; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+
+}
+.target2 {
+    text-decoration: underline red;
+}
+.target2:hover {
+    text-transform: uppercase;
+    text-decoration: underline blue;
+}
+.target3 {
+    background-color: aqua; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+}
+.target3{
+    font-style: italic;
+    color: blue
+}
+
+
+
+
+.fc{
+    background-color: darkcyan; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: inset 10px 10px 40px 10px red   ;
+         
+}
+.fc2 {
+    background:url(/image/eaa7306b813b32eb4a904ab219f0bde6.jpg) center / 100% no-repeat fixed; 
+    background-color: burlywood;
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto; 
+}
+.fc2 p:first-child{
+    color:salmon;
+    font-style: italic;
+    font-size: 40px;
+}
+.fc2 p:last-child {
+    color: blue;
+    font-weight: 900;
+    text-align: right;
+}
+
+
+
+
+.fot {
+    background-color: aqua; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+}
+.fot2 {
+    background-color: burlywood; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+    border-top: solid 10px forestgreen;
+}
+.fot2 p:first-of-type{
+    color: blueviolet;
+    font-size: 50px;
+    text-indent: 50px;
+}
+.fot2 p:last-of-type {
+    color: royalblue;
+    font-style: italic;
+    text-decoration: overline;
+}
+.fot2 *:first-of-type {
+    color: aquamarine;
+}
+.fot2 *:last-of-type {
+    color: gray;
+    text-decoration: underline red;
+}
+
+
+
+
+.nth {
+    background-color: cadetblue; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+}
+.nth2 {
+    background-color: cadetblue; 
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+    border-top: dashed 10px black;
+    border-radius: 50px;
+}
+.nth2 p:nth-child(2) {
+    background-color: blueviolet;
+}
+.nth2 p:nth-last-child(2){
+    background-color: black;
+}
+.nth2 p:nth-child(odd){
+    color: burlywood;
+}
+.nth2 p:nth-child(2n+0){
+    font-size: 45px;
+}
+.nth2 span:nth-of-type(2) {
+    font-style: italic;
+    text-decoration: underline blue;
+}
+
+
+
+.not1 {
+    background-color: blue;
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+}
+
+.not2  {
+    background-color: blue;
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 0px auto;
+}
+.not2 p:not(:first-child, :last-child) { 
+    margin-bottom: 50px;                  /*Здесь я обратился к первому и последнему парпграфу и убрал у обоих нижний отступ */
+    
+}
+.not2 *:not(:last-child) { 
+     color:coral;             /*Здесь я обратился ко всем элелементам блока кроме последнего и покрасил их в коралловый цвет */
+   
+
+}
+
+
+
+
+.eltema p {
+    background-color: coral;
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+}
+.eltema p:hover{
+    margin-top: 50px;
+}
+.el p{
+    background-color: coral;
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+}
+.el p:first-child::first-line{
+    font-size: 20px;
+    color: blue;
+}
+.el p:last-child::first-letter {
+    color: yellow;
+    font-size: 55px;
+}
+
+
+
+.bef p{
+    background-color:darkseagreen;
+    font-size: 35px;
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+
+}
+.bef p:nth-child(2)::before{
+    content: "Я СДЕЛАЛ ЭТО";
+    color: blueviolet;
+}
+.bef p:hover:nth-child(2)::after{
+    content: "ЭТО БЫЛО ЛЕГКО НА САМОМ ДЕЛЕ";
+    color: cadetblue;
+}
+.bef2 li{
+    background-color:darkseagreen;
+    font-size: 35px;
+  
+    padding: 0px 0px 0px 60px;
+   
+}
+.bef2 li::before {
+    content:"" ;
+    display: inline-block;
+    background: url('/image/logo.png') 0 0 / 50px no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px -60px; 
+}
+.bef2 li:hover::before {
+    transform: rotate(100deg) scale(1.3)  ;
+}
+
+
+
+
+.zag {
+    display: block;
+    background-color: cadetblue;
+    font-size: 35px;
+    margin: 100px 0px 50px 0px;
+    width: 200px;
+}
+.zag1::after {
+    content:"" ;
+    display: block;
+    border: solid #000;
+    width: 10%;
+    height: 3px;
+}
